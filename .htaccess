@@ -1,0 +1,2 @@
+RewriteCond %{REQUEST_URI} (.*)
+RewriteRule ^(.*)$ http://konekon.ru/ [L,R=301]

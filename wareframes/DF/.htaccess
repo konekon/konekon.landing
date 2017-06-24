@@ -1,0 +1,14 @@
+#RewriteEngine On
+#RewriteBase /
+#Options +Indexes
+#Options +FollowSymLinks
+#IndexOptions Charset=utf8
+#<Files ~ "^.*\.([Hh][Tt][Aa])">
+#	order allow,deny
+#	deny from all
+#</Files>
+
+AuthType Basic
+AuthName "Private Area"
+AuthUserFile /home/a/antondtl/konekon.ru/public_html/wareframes/DF/.htpasswd
+require valid-user
