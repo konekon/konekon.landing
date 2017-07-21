@@ -1,2 +1,9 @@
-RewriteCond %{REQUEST_URI} (.*)
-RewriteRule ^(.*)$ http://konekon.ru/ [L,R=301]
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} ^wireframes\.konekon\.ru$
+#RewriteCond %{REQUEST_URI} !/wireframes/
+#RewriteRule ^(.*)$ /sub/$1 [L]
+
+#RewriteCond %{HTTP_HOST} ^demo\.konekon\.ru$
+#RewriteCond %{REQUEST_URI} !/demo/
+#writeRule ^(.*)$ /sub/$1 [L]
